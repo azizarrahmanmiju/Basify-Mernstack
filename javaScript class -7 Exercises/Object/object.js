@@ -9,7 +9,12 @@ let Person = {
     },
     phones: [ //Nested Array In Object
         "012456854", "0214578635"
-    ]
+    ],
+    address: {
+        street: "123 Main St",
+        city: "New York",
+        state: "NY",
+    }
 }
 
 //Read Object
@@ -30,3 +35,6 @@ console.log(Person);
 
 // read Nested Array In Object
 console.log(Person.phones[0]);
+
+//read Nested Object In Object
+console.log(Person.address.street);
