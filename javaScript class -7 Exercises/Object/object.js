@@ -11,4 +11,8 @@ let Person = {
 
 console.log(Person.name);
 console.log(Person.age);
-Person.nameoutput(); 
+Person.nameoutput();
+// add Some data In the object
+Person.country = "USA"; //or
+Person["country"] = "USA";
+console.log(Person);
