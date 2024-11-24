@@ -15,30 +15,30 @@
 // Write a function that checks whether a number is positive, negative, or zero and returns the result as a string.
 // ans is below
 
-// const number = 0;
-// if (number > 0) {
-//     console.log("positive")
-//     return "Positive";
+const number = 0;
+if (number > 0) {
+    console.log("positive")
+    return "Positive";
 
-// } else if (number == 0) {
-//     console.log("Zero")
-//     return "Zero";
-// } else {
-//     console.log("Negative")
-//     return "Negative";
-// };
+} else if (number == 0) {
+    console.log("Zero")
+    return "Zero";
+} else {
+    console.log("Negative")
+    return "Negative";
+};
 
 // ========================
 // Loops:
 // Write a program to print all even numbers between 1 and 20 using a for loop.
 // ans is below
 
-// const a = 20;
-// for (let i = 1; i <= a; i++) {
-//     if (i % 2 == 0) {
-//         console.log(i);
-//     }
-// }
+const a = 20;
+for (let i = 1; i <= a; i++) {
+    if (i % 2 == 0) {
+        console.log(i);
+    }
+}
 
 // ========================
 // Question :
@@ -48,10 +48,10 @@
 // Expected Output: 21
 // ans below
 
-// const arr = [[1, 2], [3, 4], [5, 6]];
-// const arr2 = arr.flat();
-// const sum = arr2.reduce((a, b) => a + b, 0);
-// console.log(sum)
+const arr = [[1, 2], [3, 4], [5, 6]];
+const arr2 = arr.flat();
+const sum = arr2.reduce((a, b) => a + b, 0);
+console.log(sum)
 
 // Conceptual Questions
 // Variables and Data Types:
@@ -69,23 +69,23 @@
 // OUr Code is Readable and Easy to Understand
 // and it's Time save Example In below
 
-// function add(a, b) {
-//     return a + b;
-// }
-// console.log(add(1, 2));
-// console.log(add(4, 5));
-// console.log(add(40, 5));
+function add(a, b) {
+    return a + b;
+}
+console.log(add(1, 2));
+console.log(add(4, 5));
+console.log(add(40, 5));
 
 // ===
 // HTML and JS Integration:
 // How can you attach a JavaScript function to a button click in HTML ? Write a small example.
 // Example In below
-//  <button onclick="myFunction()">Click me</button> //Supposs Button In a Htaml */ }
+<button onclick="myFunction()">Click me</button> //Supposs Button In a Htaml */ }
 // add script tag in html like this <script src"index.js"></script> //suppos my js file name is index.js
 // Now Here Example Js COde ===ok
-// const myFunction = () => {
-//     alert("Button clicked");
-// }
+const myFunction = () => {
+    alert("Button clicked");
+}
 
 // Advanced Functions
 // String Manipulation:
@@ -93,17 +93,18 @@
 // Example Input: "hello"
 // Expected Output: "olleh"
 // ans below
-// const S = "hello";
-// const reversed = S.split("").reverse().join("");
-// console.log(reversed);
+
+const S = "hello";
+const reversed = S.split("").reverse().join("");
+console.log(reversed);
 
 // Date Utilities:
 // Write a program that prints the current date in the format YYYY - MM - DD.
-// const date = Date.now();
-// let day = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(date);
-// let month = new Intl.DateTimeFormat('en', { month: 'short' }).format(date);
-// let year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(date);
-// console.log(`${year}-${month}-${day}`);
+const date = Date.now();
+let day = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(date);
+let month = new Intl.DateTimeFormat('en', { month: 'short' }).format(date);
+let year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(date);
+console.log(`${year}-${month}-${day}`);
 
 // Bonus Challenge
 // Create a program that takes an array of numbers and filters out all odd numbers using the filter method.
@@ -117,19 +118,23 @@
 // ans is below
 
 
-// switch (new Date().getDay()) {
-//     case 1: console.log("MonDay"); break;
-//     case 0: console.log("SunDay"); break;
-//     case 2: console.log("TuesDay"); break;
-//     case 3: console.log("WednesDay"); break;
-//     case 4: console.log("TharsDay"); break;
-//     case 5: console.log("FriDay"); break;
-//     case 6: console.log("SeturDay"); break;
-//     default: console.log("You Are Failer");
-// }
+switch (new Date().getDay()) {
+    case 1: console.log("MonDay"); break;
+    case 0: console.log("SunDay"); break;
+    case 2: console.log("TuesDay"); break;
+    case 3: console.log("WednesDay"); break;
+    case 4: console.log("TharsDay"); break;
+    case 5: console.log("FriDay"); break;
+    case 6: console.log("SeturDay"); break;
+    default: console.log("You Are Failer");
+}
 
 
 /////////////////////////////////////////
 //
 //
-//              Result: 87%- A Grade
+//            Final Grade: 43.5/50
+//                87 % - A Grade
+//      You’ve done an excellent job overall! There are minor areas to refine(e.g., date formatting and detailed explanations), but your code is solid and well - structured.Keep practicing, and good luck with your test! 🚀
+//
+/////////////////////////////////////////
