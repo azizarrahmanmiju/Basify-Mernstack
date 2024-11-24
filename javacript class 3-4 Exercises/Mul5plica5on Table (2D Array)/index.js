@@ -8,12 +8,10 @@ for (let i = 1; i <= num; i++) { //Parrent will be Creat
 
     for (let j = 1; j <= num; j++) { //Child will be Creat
         ChildArray.push(j * i);
-    } // child array will be creat size of num
-    // now time to added child array to parent array
+    }
     ParentArray.push(ChildArray); //child Array will be added to Parent Array
 }
 
-// so finnaly I have Parent Array with Child Array inside it
 console.log(ParentArray); ///print generated Array .
 
 
